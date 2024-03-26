@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 	}
 	else {
 		
-		if (promedio >= 19) {
+		if (promedio >= 10) {
 			printf("Letra: a\n");
 		}
 		else if (promedio >= 8) {
