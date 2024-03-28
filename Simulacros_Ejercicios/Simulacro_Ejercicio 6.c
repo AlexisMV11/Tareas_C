@@ -2,33 +2,27 @@
 
 int main(int argc, char *argv[]) {
 	
-	//1. ciclo while - 5 numeros
-	//2. multi pares y sumar impares
-	//3. mostras dos resultados
+	int numero, i = 0, pares = 1, impares = 0;
 	
-	int i = 0, num, negativos = 0, positivos = 1;
+	printf("Ingrese 5 números:\n");
 	
-	printf("Ingresa 5 numeros\n");
-	
-	while (i < 5){
-		scanf("%d", &num);
+	while (i < 5) {
+		printf("Número %d: ", i + 1);
+		scanf("%d", &numero);
 		
-		if (num < 0){
-			negativos += num;
-		}	else {
-			if (num % 2 == 0) {
-				positivos *= num;
-				//positivos = positivos * num;
-		    } 
-		}	
-		i ++;
+		if (numero % 2 == 0) {
+			pares *= numero;
+		} else {
+			impares += numero;
+		}
+		
+		i++;
 	}
-		
-	printf("El resultado de la multiplicacion de los numeros pares es: %d\n", positivos);
-	printf("El resultado de la suma de los numeros impares es : %d\n", negativos);
+	
+	printf("El resultado de la multiplicacion de pares es: %d\n", pares);
+	printf("La suma de los números impares es: %d\n", impares);
 	
 	
-		
 	return 0;
 }
 

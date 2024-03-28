@@ -16,13 +16,13 @@ int main(int argc, char *argv[]) {
 	//inicio = inicioDef;
 	
 	//while (inicio > fin){
-		
-		//if (inicioDef < fin){
-			//printf("El numero de Inicio no puede ser mayor al numero de Fin");
-			
-			//printf("Vuelve a intentarlo...");
-			//scanf("%d", &inicio);
-		//}
+	
+	//if (inicioDef < fin){
+	//printf("El numero de Inicio no puede ser mayor al numero de Fin");
+	
+	//printf("Vuelve a intentarlo...");
+	//scanf("%d", &inicio);
+	//}
 	//}
 	
 	printf("Los numeros ingresados son: %d para el inicio y %d para el fin\n\n", inicio, fin);
