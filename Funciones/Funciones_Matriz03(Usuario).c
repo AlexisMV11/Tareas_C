@@ -9,7 +9,7 @@ void crear_matriz(int filas, int columnas);
 void imprimir_matriz(int filas, int columnas, int matriz[][MAX_COLUMNAS]);
 
 // Función principal
-int main() {
+int main(int argc, char *argv[]) {
 	int filas, columnas;
 	
 	// Solicitamos al usuario el número de filas y columnas

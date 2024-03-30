@@ -8,7 +8,6 @@ void tablaMultiplicar(int numero) {
 }
 
 int main(int argc, char *argv[]) {
-	
 	int numero;
 	printf("Que tabla de multiplicar te gustaria conocer: ");
 	scanf("%d", &numero);
